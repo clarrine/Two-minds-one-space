@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Minds, One Space</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #ff6b6b, #feca57, #48dbfb, #5f27cd);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            background: white;
+            border-radius: 25px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+        }
+
+        /* HERO SECTION */
+        .hero {
+            background-image: url("sifa bonnie & claire nafula.jpeg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: black;
+            height: 550px;
+        }
+
+
+        .overlay {
+            background: rgba(0, 0, 0, 0.55);
+            width: 100%;
+            height: 100%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            text-align: center;
+        }
+
+        .overlay h1 {
+            color: white;
+            font-size: 4rem;
+            text-shadow: 3px 3px 15px black;
+        }
+
+        .overlay h2 {
+            color: #FFD700;
+            margin-top: 15px;
+            font-size: 2rem;
+        }
+
+        .overlay p {
+            color: white;
+            font-size: 1.3rem;
+            margin-top: 10px;
+        }
+
+        /* MAIN CONTENT */
+
+        .content {
+            padding: 40px;
+        }
+
+        .welcome {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .welcome h2 {
+            color: #5f27cd;
+            margin-bottom: 10px;
+        }
+
+        .section {
+            background: rgba(255, 255, 255, 0.95);
+            margin-bottom: 20px;
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+            transition: 0.3s;
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+        }
+
+        .section h2 {
+            color: #5f27cd;
+            margin-bottom: 10px;
+        }
+
+        .row {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            flex: 1;
+            min-width: 300px;
+            background: #f8f9ff;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h2 {
+            color: #5f27cd;
+            margin-bottom: 10px;
+        }
+
+        ul,
+        ol {
+            margin-left: 25px;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        .blue {
+            color: dodgerblue;
+            font-weight: bold;
+        }
+
+        .purple {
+            color: purple;
+            font-weight: bold;
+        }
+
+        .green {
+            color: green;
+            font-weight: bold;
+        }
+
+        .yellow {
+            color: orange;
+            font-weight: bold;
+        }
+
+        a {
+            color: #ff4757;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #5f27cd;
+        }
+
+        blockquote {
+            border-left: 6px solid #5f27cd;
+            padding-left: 20px;
+            margin: 15px 0;
+            font-style: italic;
+        }
+        /* ADDRESS */
+
+        address {
+            padding: 25px;
+            font-style: normal;
+            line-height: 1.8;
+            background: #f8f9ff;
+        }
+
+
+        footer {
+            background: #5f27cd;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-weight: bold;
+        }
+
+        .card img {
+            width: 100%;
+            height: 350px;
+            object-fit: contain;
+            object-position: center;
+            border-radius: 15px;
+            margin-bottom: 15px;
+            background: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- HERO SECTION -->
+
+        <div class="hero">
+
+            <div class="overlay">
+
+                <h1>MEET THE FUTURE INNOVATORS</h1>
+
+                <h2>Sifa Bonnie & Claire Nafula</h2>
+
+                <p>Dreamers • Creators • Problem Solvers</p>
+
+            </div>
+
+        </div>
+
+        <!-- MAIN CONTENT -->
+
+        <div class="content">
+
+            <div class="welcome">
+
+                <h2>Welcome To Our World</h2>
+
+                <p>
+                    Thank you for visiting our website. This page introduces
+                    who we are, what inspires us and the future we hope to create.
+                </p>
+
+            </div>
+            <!-- OUR PHOTOS -->
+
+            <div class="section">
+
+                <h2>Our Photos</h2>
+
+                <div class="row">
+
+                    <div class="card">
+                        <img src="sifa.jpeg" alt="Sifa Bonnie">
+                        <h2>Sifa Bonnie</h2>
+                    </div>
+
+                    <div class="card">
+                        <img src="claire.jpeg" alt="Claire Nafula">
+                        <h2>Claire Nafula</h2>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ABOUT -->
+
+            <div class="section">
+
+                <h2>About Us</h2>
+
+                <p>
+                    Hello and welcome to our digital space! We are
+                    Sifa Bonnie and Claire Nafula, two passionate
+                    individuals who share a love for creativity,
+                    technology and solving problems. We enjoy exploring
+                    new ideas and turning them into reality.
+                </p>
+
+            </div>
+
+            <!-- MISSION -->
+
+            <div class="section">
+
+                <h2>Our Mission</h2>
+
+                <p>
+                    Our mission is to leverage technology to create
+                    innovative solutions that make a positive impact
+                    in the world.
+                </p>
+
+            </div>
+
+            <!-- VISION -->
+
+            <div class="section">
+
+                <h2>Our Vision</h2>
+
+                <p>
+                    Our vision is to be at the forefront of technological
+                    innovation, creating solutions that not only meet the
+                    needs of today but also anticipate the challenges of tomorrow.
+                </p>
+
+            </div>
+
+            <!-- VALUES -->
+
+            <div class="section">
+
+                <h2>Our Values</h2>
+
+                <ol>
+                    <li>Innovation - We embrace creativity and new ideas.</li>
+                    <li>Collaboration - We value teamwork and diverse perspectives.</li>
+                    <li>Integrity - We uphold honesty and ethical behavior.</li>
+                    <li>Excellence - We strive for continuous learning and improvement.</li>
+                </ol>
+
+            </div>
+
+            <!-- HOBBIES AND FOODS -->
+
+            <div class="row">
+
+                <div class="card">
+
+                    <h2>Our Hobbies</h2>
+
+                    <ul>
+                        <li>Graphic Design</li>
+                        <li>Website Development</li>
+                        <li>Photography</li>
+                        <li>Reading Books</li>
+                        <li>Listening to Music</li>
+                    </ul>
+
+                </div>
+
+                <div class="card">
+
+                    <h2>Favourite Foods</h2>
+
+                    <ul>
+                        <li>Pizza</li>
+                        <li>Chicken</li>
+                        <li>Ice Cream</li>
+                        <li>Pilau</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <br>
+
+            <!-- TEXT COLOURS -->
+
+            <div class="section">
+
+                <h2>Favourite Text Colours</h2>
+
+                <p class="blue">
+                    Blue represents calmness and serenity, giving a sense
+                    of confidence and stability.
+                </p>
+
+                <br>
+
+                <p class="purple">
+                    Purple represents creativity and imagination and is
+                    often associated with ambition and innovation.
+                </p>
+
+            </div>
+
+            <!-- BACKGROUND COLOURS -->
+
+            <div class="section">
+
+                <h2>Favourite Background Colours</h2>
+
+                <p class="green">
+                    Green represents growth, harmony and nature.
+                </p>
+
+                <br>
+
+                <p class="yellow">
+                    Yellow symbolizes happiness, positivity and warmth.
+                </p>
+
+            </div>
+
+            <!-- WEBSITE -->
+
+            <div class="section">
+
+                <h2>Favourite Website</h2>
+
+                <p>
+                    We enjoy learning and getting inspired through:
+                </p>
+
+                <br>
+
+                <a href="https://www.youtube.com" target="_blank">
+                    Visit YouTube
+                </a>
+
+            </div>
+
+            <!-- QUOTE -->
+
+            <div class="section">
+
+                <h2>Favourite Quote</h2>
+
+                <blockquote>
+                    “The best way to predict the future is to invent it.”
+                    – Alan Kay
+                </blockquote>
+
+                <p>
+                    We also believe that:
+                    <q>Mapema ndo best.</q>
+                </p>
+
+                <br>
+
+                <p> The word
+                    <abbr title="HyperText Markup Language">
+                        HTML
+                    </abbr>
+
+                </p>
+
+            </div>
+
+            <!-- MOTTO -->
+
+            <div class="section">
+
+                <h2>Our Personal Motto</h2>
+
+                <p>
+                    "Innovation distinguishes between a leader and a follower."
+                </p>
+
+            </div>
+
+            <!-- REFERENCES -->
+
+            <div class="section">
+
+                <h2>References</h2>
+
+                <ul>
+
+                    <li>
+                        <a href="https://www.w3schools.com/html/html_div.asp" target="_blank">
+                            W3Schools HTML DIV Tutorial
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.azquotes.com/author/7790-Alan_Kay" target="_blank">
+                            Alan Kay Quotes
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <!-- CONTACT INFORMATION -->
+
+        <address>
+
+            <strong>CONTACT INFORMATION</strong><br>
+
+            P.O. BOX 91213-80100<br>
+
+            Mombasa, Kenya<br>
+
+            CLAIRE NAFULA<br>
+
+            SIFA BONNIE<br>
+
+            TEL 0741948643<br>
+
+            TEL 0705613662<br>
+
+        </address>
+
+        <!-- FOOTER -->
+
+        <footer>
+            Created by Sifa Bonnie & Claire Nafula © 2026
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
